@@ -1,0 +1,1 @@
+print('Jesus te ama\n e deseja te salvar\n ele é o caminho a verdade e a vida.')
