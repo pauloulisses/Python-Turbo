@@ -1,8 +1,21 @@
-print('Seja Bem-Vindo ao TipsPark')
+"""
+Operadores de comparação
+==   igual
+!=   diferente
+<    menor
+>    maior
+<=   menor igual
+>=   maior igual
+"""
 
-altura = int(input('Qual é a sua altura? '))
 
-if altura > 120:
-    print("Vende o ingresso!")
+# Exercício
+
+numero_a_verificar = int(input('Digite um número: '))
+
+print(numero_a_verificar % 2)
+
+if numero_a_verificar % 2 == 0:
+    print('O número é par')
 else:
-    print("Lamento você não vai!")
+    print('Onúmero é ímpar')
